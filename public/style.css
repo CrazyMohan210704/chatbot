@@ -1,0 +1,97 @@
+/* Reset default margins and paddings */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the chatbot container */
+.chatbot-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Styling for the chat window */
+.chat-window {
+    max-height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for chat bubbles */
+.chat-bubble {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.user-bubble {
+    background-color: #3498db;
+    color: #fff;
+    align-self: flex-end;
+}
+
+.bot-bubble {
+    background-color: #f1f1f1;
+    color: #333;
+    align-self: flex-start;
+}
+
+/* Styling for user input area */
+.user-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+#user-message {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#send-button {
+    padding: 8px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+    background-color: #2980b9;
+}
+
+/* Styling for chat header and logout link */
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#username-display {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#logout-link {
+    color: #3498db;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#logout-link:hover {
+    text-decoration: underline;
+}
